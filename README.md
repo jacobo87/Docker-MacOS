@@ -9,15 +9,25 @@ Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://
 1. Descarga e instala Docker Desktop.
 
 Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
- 
-![Docker](images/docker.png "image_Docker")
 
+![Docker](images/docker.png "image_Docker")
 
 Una vez allí pulsamos en **Get Started**.
 
 Elegimos la versión que queremos instalar y seguimos los pasos.
 
+Instalación para Ubuntu.
+
+![Docker](images/docker_ubu.png "image_Docker")
+
+Desinstalamos versiones antiguas.
 `` $ sudo apt-get remove docker docker-engine docker.io containerd runc`` 
+
+Actualizar el índice de paquetes de apt e instale los paquetes para permitir a apt usar un repositorio sobre HTTPS:
+``$ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common``
+
+Añadimos el repositorio oficial de Docker.
+`` $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``
 
 2. Muestra por línea de comando y luego desde Docker Desktop las imágenes que  tienes descargada en Docker.
 
