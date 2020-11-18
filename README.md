@@ -52,9 +52,9 @@ Instalación para Mac.
  $ sudo docker pull mysql
 ```
 
-![Docker](images/mac8png "image_Docker")
+![Docker](images/mac8.png "image_Docker")
 
-![Docker](images/mac9png "image_Docker")
+![Docker](images/mac9.png "image_Docker")
 
 4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las imágenes que tienes descargada en Docker.
 
