@@ -9,6 +9,7 @@ Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://
 1. Descarga e instala Docker Desktop.
 
 Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
+ 
 ![Docker](images/docker.png "image_Docker")
 
 
