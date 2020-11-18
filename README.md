@@ -1,4 +1,9 @@
 # INSTALACIÓN DE UN SGBD 
+>IES Celia Viñas (Almería) - Curso 2020/2021    
+>Módulo: ASGBD - Administración de Sistemas Gestores de Bases de Datos    
+>Ciclo: CFGS Administración de Sistemas Informáticos en Red   
+
+ 
 > Configuración previa  
 > Para esta práctica en nuestro caso, usamos una imagen de **Ubuntu Desktop**, configuramos un adaptador puente con IPv4 fija. 
 
