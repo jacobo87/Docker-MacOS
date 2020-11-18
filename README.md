@@ -27,7 +27,7 @@ Desinstalamos versiones antiguas.
 Actualizar el índice de paquetes de ``apt`` e instale los paquetes para permitir a ``apt`` usar un repositorio sobre HTTPS: 
 
 ```bash
-$ sudo apt-get install \ 
+ $ sudo apt-get install \ 
     apt-transport-https \ 
     ca-certificates \ 
     curl \ 
@@ -37,16 +37,28 @@ $ sudo apt-get install \
 
 Añadimos el repositorio oficial de Docker. 
 
-`` $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add ``
+```bash 
+ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+```
 
 #### Instalamos Docker
 ```bash
  $ sudo apt update
  $ sudo apt install docker
+ $ sudo apt install docker.io
 ```
 2. Muestra por línea de comando y luego desde Docker Desktop las imágenes que  tienes descargada en Docker.
 
+![Docker](images/docker_ubu1.png "image_Docker")
+
 3. Descarga la última imagen de MySQL desde el hub de Docker por línea de  comandos. Indica en el documento que estás creando de  qué versión se trata.
+
+```bash
+ $ sudo docker search mysql
+ $ sudo docker pull mysql
+```
+
+![Docker](images/docker_ubu2.png "image_Docker")
 
 4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las  imágenes que tienes descargada en Docker.
 
