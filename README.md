@@ -26,7 +26,14 @@ Desinstalamos versiones antiguas.
 
 Actualizar el índice de paquetes de ``apt`` e instale los paquetes para permitir a ``apt`` usar un repositorio sobre HTTPS: 
 
-``$ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common``
+```bash
+$ sudo apt-get install \ 
+    apt-transport-https \ 
+    ca-certificates \ 
+    curl \ 
+    gnupg-agent \ 
+    software-properties-common
+```
 
 Añadimos el repositorio oficial de Docker. 
 
