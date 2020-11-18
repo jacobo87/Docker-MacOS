@@ -1,7 +1,7 @@
 # INSTALACIÓN DE UN SGBD 
 
 
-> Configuración previa 
+> Configuración previa. 
 > Para esta práctica en nuestro caso, usamos una imagen de **Ubuntu Desktop**, configuramos un adaptador puente con IPv4 fija.
 
 
