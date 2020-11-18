@@ -9,6 +9,10 @@ apt update
 # Instalamos curl
 apt install curl -y
 
+# Instalamos mysql client y server
+apt install mysql-client-core-5.7
+apt install mysql-server-5.7
+
 # Actualizar el índice de paquetes 
 apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common -y
 
@@ -24,5 +28,3 @@ docker pull mysql
 
 # Lanzamos instancia con persistencia de datos en segundo plano
 docker run -d --rm --name mysql-version-8.0.22 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
-
-
