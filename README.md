@@ -83,16 +83,19 @@ Añadimos el repositorio oficial de Docker.
 
 7. Si el servicio está corriendo, entra en MySQL y visualiza las bases de datos  existentes. 
 
-Instalamos el cliente mysql: 
+Instalamos el cliente mysql, el servidor y accedemos: 
 
 ```bash
- $ sudo apt install mysql-clien-core-5.7
+ $ sudo apt install mysql-client-core-5.7
+ $ sudo apt install mysql-server
+ $ mysql -u root -p
 ```
-
 
 #### Instalación de MySQL Workbench
 
-8. Instala el cliente MySQL Workbench en el PC local y accede al servicio que hemos  arrancado (IP 127.0.0.1 -> localhost). 
+8. Instala el cliente MySQL Workbench en el PC local y accede al servicio que hemos arrancado (IP 127.0.0.1 -> localhost). 
+
+![Docker](images/docker_work1.png "image_Docker")
 
 9. Visualiza las bases de datos existentes en el servidor desde el cliente MySQL Workbench. 
 
