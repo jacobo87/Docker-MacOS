@@ -87,9 +87,13 @@ Instalamos el cliente mysql, el servidor y accedemos:
 
 ```bash
  $ sudo apt install mysql-client-core-5.7
- $ sudo apt install mysql-server
+ $ sudo apt install mysql-server-5.7
  $ mysql -u root -p
 ```
+
+![Mysql-server](images/docker_ubu5.png "image_Docker")
+
+![Mysql-server](images/docker_ubu6.png "image_Docker")
 
 #### Instalación de MySQL Workbench
 
