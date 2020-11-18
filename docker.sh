@@ -24,7 +24,7 @@ apt install docker -y
 apt install docker.io -y
 
 # Descargamos la última versión docker MySQL
-docker pull mysql
+# docker pull mysql
 
 # Lanzamos instancia con persistencia de datos en segundo plano
-docker run -d --rm --name mysql-version-8.0.22 -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
+docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
