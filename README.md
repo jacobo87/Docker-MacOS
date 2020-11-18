@@ -3,11 +3,9 @@
 >Módulo: ASGBD - Administración de Sistemas Gestores de Bases de Datos    
 >Ciclo: CFGS Administración de Sistemas Informáticos en Red   
 
- 
-> Configuración previa  
-> Para esta práctica en nuestro caso, usamos una imagen de **Ubuntu Desktop**, configuramos un adaptador puente con IPv4 fija. 
-
 ### Instalación de Docker
+> Configuración previa   
+> Para esta práctica en nuestro caso, usamos una imagen de **Ubuntu Desktop**, configuramos un adaptador puente con IPv4 fija.   
 
 Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_inform%C3%A1tica) dentro de[ contenedores de software](https://es.wikipedia.org/wiki/Contenedores_de_software). 
 
