@@ -86,7 +86,7 @@ Añadimos el repositorio oficial de Docker.
 
 7. Si el servicio está corriendo, entra en MySQL y visualiza las bases de datos  existentes. 
 
-Instalamos el cliente mysql, el servidor y accedemos: 
+- Instalamos el cliente mysql, el servidor y accedemos: 
 
 ```bash
  $ sudo apt install mysql-client-core-5.7
