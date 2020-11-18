@@ -77,7 +77,7 @@ Añadimos el repositorio oficial de Docker.
 *   Necesitaremos que el contenedor se esté ejecutando constantemente en  background (o fondo). 
 
 ```bash
- $ sudo docker run -d --rm --name mysql-version-8.0.22 -e MYSQL_ROOT_PASSWORD=root 
+ $ sudo docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root 
     -p 3306:3306 
     -v mysql_data:/var/lib/mysql 
     mysql:8.0.22
