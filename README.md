@@ -61,7 +61,7 @@ Instalación para Mac.
 ![Docker](images/mac10.png "image_Docker")
 ``Docker CLI``
 
-![Docker](images/mac11png "image_Docker")
+![Docker](images/mac11.png "image_Docker")
 ``Docker Desktop``
 
 5. La imagen por sí sola no hace nada, tendremos que crear un contenedor con dicha imagen. Por lo tanto, crea un contenedor mediante línea de comandos que ejecute el servidor de MySQL teniendo en cuenta que: 
@@ -76,13 +76,13 @@ Instalación para Mac.
 ```bash
  $ sudo docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
 ```
-![Docker](images/mac12png "image_Docker")
+![Docker](images/mac12.png "image_Docker")
 
 6. Comprueba, mediante línea de comandos y desde Docker Desktop, que contenedores están corriendo (status up). 
 
-![Docker](images/mac13png "image_Docker")
+![Docker](images/mac13.png "image_Docker")
 
-![Docker](images/mac14png "image_Docker")
+![Docker](images/mac14.png "image_Docker")
 
 7. Si el servicio está corriendo, entra en MySQL y visualiza las bases de datos  existentes. 
 
