@@ -37,21 +37,12 @@ $ sudo apt-get install \
 
 Añadimos el repositorio oficial de Docker. 
 
-`` $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``
-
-Utilizamos el siguiente comando para configurar el repositorio ``estable``. 
-
-```bash
-$ sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
-```
+`` $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add ``
 
 #### Instalamos Docker
 ```bash
- $ sudo apt-get update
- $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+ $ sudo apt update
+ $ sudo apt install docker
 ```
 2. Muestra por línea de comando y luego desde Docker Desktop las imágenes que  tienes descargada en Docker.
 
