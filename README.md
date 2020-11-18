@@ -62,6 +62,8 @@ Añadimos el repositorio oficial de Docker.
 
 4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las  imágenes que tienes descargada en Docker.
 
+![Docker](images/docker_ubu3.png "image_Docker")
+
 5. La imagen por sí sola no hace nada, tendremos que crear un contenedor con dicha imagen. Por lo tanto, crea un contenedor mediante línea de comandos que ejecute el servidor de MySQL teniendo en cuenta que: 
 ![Docker](images/image1.png "Docker")
 *   Usaremos la imagen que acabamos de descargar. 
@@ -71,9 +73,21 @@ Añadimos el repositorio oficial de Docker.
 *   Usaremos el puerto 3306 tanto del pc local como el del contenedor Docker.
 *   Necesitaremos que el contenedor se esté ejecutando constantemente en  background (o fondo). 
 
+```bash
+ $ sudo docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
+```
+
 6. Comprueba, mediante línea de comandos y desde Docker Desktop, que  contenedores están corriendo (status up). 
 
+![Docker](images/docker_ubu4.png "image_Docker")
+
 7. Si el servicio está corriendo, entra en MySQL y visualiza las bases de datos  existentes. 
+
+Instalamos el cliente mysql: 
+
+```bash
+ $ sudo apt install mysql-clien-core-5.7
+```
 
 
 #### Instalación de MySQL Workbench
