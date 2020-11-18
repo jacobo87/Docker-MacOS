@@ -128,7 +128,13 @@ contenedores están corriendo (status up).
 
 16. Para el contenedor de MySQL. 
 
-17. Muestra todos los contenedores que tenemos, incluso los parados. 18. Intenta acceder a una tabla en MySQL Workbench ¿Qué ocurre? ¿Por qué? 19. Comprueba el estado de la carpeta local donde tenemos referenciado docker. 20. Elimina el contenedor y comprueba que los datos de la carpeta local del PC no se  han eliminado. 
+17. Muestra todos los contenedores que tenemos, incluso los parados. 
+
+18. Intenta acceder a una tabla en MySQL Workbench ¿Qué ocurre? ¿Por qué? 
+
+19. Comprueba el estado de la carpeta local donde tenemos referenciado docker. 
+
+20. Elimina el contenedor y comprueba que los datos de la carpeta local del PC no se  han eliminado. 
 
 21. Volver a crear el contenedor vinculandolo a la misma carpeta local y comprobar que mediante línea de comandos que vuelve a estar toda la información, incluida la base  de datos que hemos creado. 
 
