@@ -148,8 +148,6 @@ Instalar phpMyAdmin haciendo uso de Docker, teniendo en cuenta que hay que ‘li
 
 ## Referencias
 
-
-
 *   [https://www.docker.com/](https://www.docker.com/)
 *   [http://www.mysql.com](http://www.mysql.com)
 *   [https://hub.docker.com](https://hub.docker.com)
