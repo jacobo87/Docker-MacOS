@@ -11,15 +11,15 @@ Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://
 
 1. Descarga e instala Docker Desktop.
 
-Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
+- Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
 
 ![Docker](images/mac1.png "image_Docker")
 
-Una vez allí pulsamos en **Get Started**.
+- Una vez allí pulsamos en **Get Started**.
 
 Elegimos la versión que queremos instalar y seguimos los pasos.
 
-Instalación para Mac.
+- Instalación para Mac.
 
 ![Docker](images/mac2.png "image_Docker")
 
