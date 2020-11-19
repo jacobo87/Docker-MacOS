@@ -5,7 +5,7 @@
 
 ### Instalación de Docker
 > Configuración previa   
-> Para esta práctica en nuestro caso, usamos una imagen de **Ubuntu Desktop**, configuramos un adaptador puente con IPv4 fija.   
+> Para esta práctica en nuestro caso, usamos una imagen de **macOS Catalina** Versión 10.15.7.   
 
 Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_inform%C3%A1tica) dentro de[ contenedores de software](https://es.wikipedia.org/wiki/Contenedores_de_software). 
 
@@ -13,59 +13,56 @@ Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://
 
 Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
 
-![Docker](images/docker.png "image_Docker")
+![Docker](images/mac1.png "image_Docker")
 
 Una vez allí pulsamos en **Get Started**.
 
 Elegimos la versión que queremos instalar y seguimos los pasos.
 
-Instalación para Ubuntu.
+Instalación para Mac.
 
-![Docker](images/docker_ubu.png "image_Docker")
-
-Desinstalamos versiones antiguas. 
-
-`` $ sudo apt-get remove docker docker-engine docker.io containerd runc`` 
-
-Actualizar el índice de paquetes de ``apt`` e instale los paquetes para permitir a ``apt`` usar un repositorio sobre HTTPS: 
-
-```bash
- $ sudo apt-get install \ 
-    apt-transport-https \ 
-    ca-certificates \ 
-    curl \ 
-    gnupg-agent \ 
-    software-properties-common
-```
-
-Añadimos el repositorio oficial de Docker. 
-
-```bash 
- $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
-```
+![Docker](images/mac2.png "image_Docker")
 
 #### Instalamos Docker
-```bash
- $ sudo apt update
- $ sudo apt install docker
- $ sudo apt install docker.io
-```
+
+- Arrastramos el Docker hasta la carpeta de aplicaciones.
+
+![Docker](images/mac3.png "image_Docker")
+
+- Cuando termine la instalación se agregará a el icono a la barra de herramientas.
+
+![Docker](images/mac4.png "image_Docker")
+
+- Desplegamos el menú con las diferentes opciones.
+
+![Docker](images/mac5.png "image_Docker")
+
 2. Muestra por línea de comando y luego desde Docker Desktop las imágenes que  tienes descargada en Docker.
 
-![Docker](images/docker_ubu1.png "image_Docker")
+![Docker](images/mac6.png "image_Docker")
+``Docker CLI``
 
-3. Descarga la última imagen de MySQL desde el hub de Docker por línea de  comandos. Indica en el documento que estás creando de  qué versión se trata.
+![Docker](images/mac7.png "image_Docker")
+``Docker Desktop``
+
+3. Descarga la última imagen de MySQL desde el hub de Docker por línea de comandos. Indica en el documento que estás creando de qué versión se trata.
 
 ```bash
  $ sudo docker search mysql
  $ sudo docker pull mysql
 ```
 
-![Docker](images/docker_ubu2.png "image_Docker")
+![Docker](images/mac8.png "image_Docker")
 
-4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las  imágenes que tienes descargada en Docker.
+![Docker](images/mac9.png "image_Docker")
 
-![Docker](images/docker_ubu3.png "image_Docker")
+4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las imágenes que tienes descargada en Docker.
+
+![Docker](images/mac10.png "image_Docker")
+``Docker CLI``
+
+![Docker](images/mac11.png "image_Docker")
+``Docker Desktop``
 
 5. La imagen por sí sola no hace nada, tendremos que crear un contenedor con dicha imagen. Por lo tanto, crea un contenedor mediante línea de comandos que ejecute el servidor de MySQL teniendo en cuenta que: 
 ![Docker](images/image1.png "Docker")
@@ -79,22 +76,24 @@ Añadimos el repositorio oficial de Docker.
 ```bash
  $ sudo docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql mysql:8.0.22
 ```
+![Docker](images/mac12.png "image_Docker")
 
-6. Comprueba, mediante línea de comandos y desde Docker Desktop, que  contenedores están corriendo (status up). 
+6. Comprueba, mediante línea de comandos y desde Docker Desktop, que contenedores están corriendo (status up). 
 
-![Docker](images/docker_ubu4.png "image_Docker")
+![Docker](images/mac13.png "image_Docker")
+
+![Docker](images/mac14.png "image_Docker")
 
 7. Si el servicio está corriendo, entra en MySQL y visualiza las bases de datos  existentes. 
 
 - Instalamos el cliente mysql, el servidor y accedemos: 
 
 ```bash
- $ sudo apt install mysql-client-core-5.7
- $ sudo apt install mysql-server-5.7
+ $ brew install mysql-client
  $ mysql -u root -p
 ```
 
-![Mysql-server](images/docker_ubu6.png "image_Docker")
+![Mysql-server](images/mac15.png "image_Docker")
 
 #### Instalación de MySQL Workbench
 
