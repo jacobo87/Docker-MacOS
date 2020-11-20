@@ -101,6 +101,8 @@ Elegimos la versión que queremos instalar y seguimos los pasos.
 
 ![Docker](images/mac17.png "image_Docker")
 
+-  Iniciamos sesión el localhost como el usuario y contraseña definidos al lanzar el contenedor.
+
 ![Docker](images/mac18.png "image_Docker")
 
 9. Visualiza las bases de datos existentes en el servidor desde el cliente MySQL Workbench. 
