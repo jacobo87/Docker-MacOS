@@ -11,15 +11,15 @@ Docker se caracteriza porque automatiza el despliegue de[ aplicaciones](https://
 
 1. Descarga e instala Docker Desktop.
 
-Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
+- Primero nos dirigimos a la web de Docker  [https://www.docker.com/](https://www.docker.com/) . 
 
 ![Docker](images/mac1.png "image_Docker")
 
-Una vez allí pulsamos en **Get Started**.
+- Una vez allí pulsamos en **Get Started**.
 
 Elegimos la versión que queremos instalar y seguimos los pasos.
 
-Instalación para Mac.
+- Instalación para Mac.
 
 ![Docker](images/mac2.png "image_Docker")
 
@@ -40,10 +40,8 @@ Instalación para Mac.
 2. Muestra por línea de comando y luego desde Docker Desktop las imágenes que  tienes descargada en Docker.
 
 ![Docker](images/mac6.png "image_Docker")
-``Docker CLI``
 
 ![Docker](images/mac7.png "image_Docker")
-``Docker Desktop``
 
 3. Descarga la última imagen de MySQL desde el hub de Docker por línea de comandos. Indica en el documento que estás creando de qué versión se trata.
 
@@ -59,10 +57,8 @@ Instalación para Mac.
 4. Muestra de nuevo por línea de comando y luego desde Docker Desktop las imágenes que tienes descargada en Docker.
 
 ![Docker](images/mac10.png "image_Docker")
-``Docker CLI``
 
 ![Docker](images/mac11.png "image_Docker")
-``Docker Desktop``
 
 5. La imagen por sí sola no hace nada, tendremos que crear un contenedor con dicha imagen. Por lo tanto, crea un contenedor mediante línea de comandos que ejecute el servidor de MySQL teniendo en cuenta que: 
 ![Docker](images/image1.png "Docker")
@@ -146,8 +142,6 @@ Instalar phpMyAdmin haciendo uso de Docker, teniendo en cuenta que hay que ‘li
 
 
 ## Referencias
-
-
 
 *   [https://www.docker.com/](https://www.docker.com/)
 *   [http://www.mysql.com](http://www.mysql.com)
