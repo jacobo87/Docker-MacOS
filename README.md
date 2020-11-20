@@ -179,6 +179,10 @@ contenedores están corriendo (status up).
 
 Instalar phpMyAdmin haciendo uso de Docker, teniendo en cuenta que hay que ‘lincarlo’ al servicio MySQL que ya hemos creado, sino irán como en servicios independientes y  no se podrá acceder desde phpMyAdmin a MySQL server. Una vez instalado, probar a abrir phpMyAdmin desde un navegador en local e  interactuar sobre las bases de datos.
 
+```bash
+docker run -d \ --rm \ --name phpmyadminc \ --link mysqlc \ -e PMA_HOST=mysqlc \ -p 8080:80 \ phpmyadmin/phpmyadmin
+```
+
 
 ## Referencias
 
