@@ -137,9 +137,19 @@ contenedores están corriendo (status up).
 
 16. Para el contenedor de MySQL. 
 
+![Docker](images/mac26.png "image_Docker")
+
 17. Muestra todos los contenedores que tenemos, incluso los parados. 
 
+![Docker](images/mac27.png "image_Docker")
+
+- Ejecutamos el comando ```docker ps -a``` donde ```-a``` es la abreviatura de ```-all```. 
+
 18. Intenta acceder a una tabla en MySQL Workbench ¿Qué ocurre? ¿Por qué? 
+
+![Docker](images/mac28.png "image_Docker")
+
+- No podemos acceder ya que al no tener ningún contenedor ejecutandose en local no puede acceder a el.
 
 19. Comprueba el estado de la carpeta local donde tenemos referenciado docker. 
 
