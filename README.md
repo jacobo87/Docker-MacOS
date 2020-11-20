@@ -153,12 +153,27 @@ contenedores están corriendo (status up).
 
 19. Comprueba el estado de la carpeta local donde tenemos referenciado docker. 
 
+![Docker](images/mac29.png "image_Docker")
+
 20. Elimina el contenedor y comprueba que los datos de la carpeta local del PC no se  han eliminado. 
+
+- Al hacer ```docker stop```comprobamos que ha terminado el contenedor.
 
 21. Volver a crear el contenedor vinculandolo a la misma carpeta local y comprobar que mediante línea de comandos que vuelve a estar toda la información, incluida la base  de datos que hemos creado. 
 
+![Docker](images/mac30.png "image_Docker")
+
+- Lanzamos de nuevo el contenedor.
+
+![Docker](images/mac31.png "image_Docker")
+
+- Comprobamos que los datos siguen guardados.
+
 22. Comprobar la conexión desde MySQL Workbench. 
 
+![Docker](images/mac32.png "image_Docker")
+
+- Conexión con MySQLWorkbench
 
 ### AMPLIACIÓN 
 
