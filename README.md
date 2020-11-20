@@ -111,17 +111,29 @@ Elegimos la versión que queremos instalar y seguimos los pasos.
 
 10. Crea dos nuevas bases de datos desde la línea de comandos. 
 
+![Docker](images/mac20.png "image_Docker")
+
 11. Vuelve a visualizar las bases de datos existentes de las dos formas (línea de  comandos y cliente), para comprobar que se actualiza correctamente. 
+
+![Docker](images/mac21.png "image_Docker")
 
 12. Elimina una base de datos desde MySQL Workbench (mantén la otra). 
 
+![Docker](images/mac22.png "image_Docker")
+
 13. Vuelve a visualizar las bases de datos existentes de las dos formas (línea de  comandos y cliente), para comprobar que se actualiza correctamente. 
+
+![Docker](images/mac23.png "image_Docker")
 
 14. Sal de MySQL (exit;) 
 
 15. Comprueba, mediante línea de comandos y desde Docker Desktop que 
 
 contenedores están corriendo (status up). 
+
+![Docker](images/mac24.png "image_Docker")
+
+![Docker](images/mac25.png "image_Docker")
 
 16. Para el contenedor de MySQL. 
 
