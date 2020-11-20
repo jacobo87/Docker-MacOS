@@ -93,23 +93,23 @@ Instalación para Mac.
  $ mysql -u root -p
 ```
 
-![Mysql-server](images/mac15.png "image_Docker")
-
 #### Instalación de MySQL Workbench
 
 8. Instala el cliente MySQL Workbench en el PC local y accede al servicio que hemos arrancado (IP 127.0.0.1 -> localhost). 
 
 - Descargamos Workbench
 
-![Docker](images/docker_work1.png "image_Docker")
+![Docker](images/mac16.png "image_Docker")
 
 - Instalamos
 
-![Docker](images/docker_work2.png "image_Docker")
+![Docker](images/mac17.png "image_Docker")
 
-
+![Docker](images/mac18.png "image_Docker")
 
 9. Visualiza las bases de datos existentes en el servidor desde el cliente MySQL Workbench. 
+
+![Docker](images/mac19.png "image_Docker")
 
 10. Crea dos nuevas bases de datos desde la línea de comandos. 
 
